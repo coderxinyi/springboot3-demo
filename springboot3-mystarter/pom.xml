@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.guhave</groupId>
-    <artifactId>springboot3-core</artifactId>
+    <artifactId>springboot3-mystarter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot3-core</name>
-    <description>springboot3-core</description>
+    <name>springboot3-mystarter</name>
+    <description>springboot3-mystarter</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -27,21 +27,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>com.guhave</groupId>
-            <artifactId>springboot3-mystarter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
 
     <build>
